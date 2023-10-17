@@ -1,0 +1,24 @@
+20:22:13,108 [main] INFO  api.test.UserTest - *******************  creating user *********************
+20:22:24,311 [main] INFO  api.test.UserTest - *******************  created user *********************
+20:22:24,356 [main] INFO  api.test.UserTest - *******************  getting user *********************
+20:22:26,473 [main] INFO  api.test.UserTest - *******************  got user *********************
+20:22:26,482 [main] INFO  api.test.UserTest - *******************  updating user *********************
+20:22:28,717 [main] INFO  api.test.UserTest - *******************  updated user *********************
+20:22:28,726 [main] INFO  api.test.UserTest - *******************  deleting *********************
+20:22:30,764 [main] INFO  api.test.UserTest - *******************  deleted *********************
+20:23:27,875 [main] INFO  api.test.UserTest - *******************  creating user *********************
+20:23:34,418 [main] INFO  api.test.UserTest - *******************  created user *********************
+20:23:34,458 [main] INFO  api.test.UserTest - *******************  getting user *********************
+20:23:37,682 [main] INFO  api.test.UserTest - *******************  got user *********************
+20:23:37,690 [main] INFO  api.test.UserTest - *******************  updating user *********************
+20:23:40,130 [main] INFO  api.test.UserTest - *******************  updated user *********************
+20:23:40,137 [main] INFO  api.test.UserTest - *******************  deleting *********************
+20:23:43,880 [main] INFO  api.test.UserTest - *******************  deleted *********************
+20:25:22,858 [main] INFO  api.test.UserTest - *******************  creating user *********************
+20:25:29,421 [main] INFO  api.test.UserTest - *******************  created user *********************
+20:25:29,452 [main] INFO  api.test.UserTest - *******************  getting user *********************
+20:25:33,138 [main] INFO  api.test.UserTest - *******************  got user *********************
+20:25:33,145 [main] INFO  api.test.UserTest - *******************  updating user *********************
+20:25:36,516 [main] INFO  api.test.UserTest - *******************  updated user *********************
+20:25:36,521 [main] INFO  api.test.UserTest - *******************  deleting *********************
+20:25:39,895 [main] INFO  api.test.UserTest - *******************  deleted *********************
