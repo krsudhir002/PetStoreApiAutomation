@@ -40,22 +40,23 @@ public class UserTest {
 	@Test(priority=1)
 	void testPostUser() throws IOException {
 	
-		logger.info("*******************  creating user *********************");
+		logger.info("\n*******************  creating user *********************\n");
 		
 		Response response=(Response) UserEndPoints.createUser(payload);
 		Assert.assertEquals(response.getStatusCode(), 200);
-		logger.info("*******************  created user *********************");
+		
+		logger.info("\n\n*******************  user created  *********************\n");
 
 
 		
 	}
 	@Test(priority=2)
 	void testGettUser() throws IOException {
-		logger.info("*******************  getting user *********************");
+		logger.info("\n*******************  retrieving user *********************\n");
 		
 		Response response=(Response) UserEndPoints.getUser(this.payload.getUsername());
 		Assert.assertEquals(response.getStatusCode(), 200);
-		logger.info("*******************  got user *********************");
+		logger.info("\n\n*******************  user retrieved *********************\n");
 		
 
 		
@@ -63,10 +64,10 @@ public class UserTest {
 	
 	@Test(priority=3)
 	void testUpdatetUser() throws IOException {
-		logger.info("*******************  updating user *********************");
+		logger.info("\n*******************  updating user *********************\n");
 		Response response=(Response) UserEndPoints.updateUser(payload,this.payload.getUsername());
 		Assert.assertEquals(response.getStatusCode(), 200);
-		logger.info("*******************  updated user *********************");
+		logger.info("\n\n******************* user  updated  *********************\n");
 		
 
 		
@@ -74,10 +75,10 @@ public class UserTest {
 	
 	@Test(priority=4)
 	void testDeletetUser() throws IOException {
-		logger.info("*******************  deleting *********************");
+		logger.info("\n*******************  deleting user *********************");
 		Response response=(Response) UserEndPoints.getUser(payload.getUsername());
 		Assert.assertEquals(response.getStatusCode(), 200);
-		logger.info("*******************  deleted *********************");
+		logger.info("\n\n*******************  user deleted *********************");
 		
 
 		
